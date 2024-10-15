@@ -13,6 +13,7 @@ drf-yasg = "*"
 drf-yasg-stubs = "*"
 celery = {extras = ["redis"], version = "*"}
 redis = "*"
+pydantic = "*"
 
 [dev-packages]
 black = "*"
