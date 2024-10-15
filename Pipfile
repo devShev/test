@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+markdown = "*"
+django-filter = "*"
+psycopg = {extras = ["binary"], version = "*"}
+djangorestframework = "*"
+drf-yasg = "*"
+drf-yasg-stubs = "*"
+celery = {extras = ["redis"], version = "*"}
+redis = "*"
+
+[dev-packages]
+black = "*"
+mypy = "*"
+flake8 = "*"
+flake8-import-order = "*"
+django-stubs = {extras = ["compatible-mypy"], version = "*"}
+djangorestframework-stubs = {extras = ["compatible-mypy"], version = "*"}
+celery-types = "*"
+
+[requires]
+python_version = "3.12"
